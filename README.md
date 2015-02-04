@@ -18,3 +18,7 @@ lib3.js     0.04 KB
 lib2.js     0.01 KB
 TOTAL       0.08 KB
 ```
+
+## license
+
+MIT License
