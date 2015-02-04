@@ -1,6 +1,6 @@
 # minifyretracer
 
-Trace back the sources that contribute to your minified JavaScript artifact. With source maps.
+Use source maps to trace back the sources that contribute to your minified JavaScript artifact.
 
 ## install
 
