@@ -2,6 +2,14 @@
 
 Trace back the sources that contribute to your minified Javascript artifact. With source maps.
 
+## install
+
+```bash
+npm install minifyretracer
+```
+
+## usage
+
 ```bash
 minifyretracer app.js.map
 
