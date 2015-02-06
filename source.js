@@ -8,7 +8,7 @@ var _ = require('lodash');
 var cli = require('cli');
 
 function loadSourceMap(path, fn) {
-  fs.readFile(__dirname + path, function (err, data) {
+  fs.readFile(path, function (err, data) {
     if (err) {
       cli.fatal("error: no source map found at '" + path + "'");
     }
