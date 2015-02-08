@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "sources": [
+    "lib1.js",
+    "lib3.js",
+    "lib2.js"
+  ],
+  "names": [
+    "A",
+    "C",
+    "param",
+    "console",
+    "log",
+    "B"
+  ],
+  "mappings": "AAAA,QAASA,KACP,MAAO,cCDT,QAASC,GAAEC,OACTC,QAAQC,IAAI,SAAWF,OCDzB,GAAIG,GAAI"
+}

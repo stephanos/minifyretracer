@@ -11,7 +11,7 @@ $ npm install minifyretracer
 ## usage
 
 ```bash
-$ minifyretracer app.js.map
+$ minifyretracer app.js.min
 
 lib1.js     0.03 KB
 lib3.js     0.04 KB
