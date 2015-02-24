@@ -6,9 +6,10 @@ describe('analyzer', function () {
 
   it('should analyse simple data set', function (end) {
     loader('test/fixtures/simple/libs.min.js', function (dataSet) {
-      analyzer(dataSet, function (analysis) {
+      analyzer(dataSet, {}, function (analysis) {
         expect(analysis).to.eql([
           {
+            "files": 1,
             "min_rate": 17.5,
             "min_share": 25,
             "min_size": 33,
@@ -19,6 +20,7 @@ describe('analyzer', function () {
             "zip_size": 53
           },
           {
+            "files": 1,
             "min_rate": 14.81481481481481,
             "min_share": 34.84848484848485,
             "min_size": 46,
@@ -29,6 +31,7 @@ describe('analyzer', function () {
             "zip_size": 62
           },
           {
+            "files": 1,
             "min_rate": 9.090909090909093,
             "min_share": 15.151515151515152,
             "min_size": 20,
