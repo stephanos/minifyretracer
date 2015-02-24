@@ -1,4 +1,4 @@
-# minifyretracer
+# minifyretracer [![Build Status](https://travis-ci.org/stephanos/minifyretracer.svg)](https://travis-ci.org/stephanos/minifyretracer)
 
 Use source maps to trace back the sources that contribute to your minified JavaScript artifact.
 
